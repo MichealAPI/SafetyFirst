@@ -1,0 +1,41 @@
+.text-header {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 64px;
+    color: var(--secondary);
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+}
+
+.subtitle p {
+    margin: 0;
+    font-size: 20px;
+    color: var(--secondary);
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.player-card .podcast-text .title p {
+
+    font-size: 48px;
+    color: var(--secondary);
+    font-family: 'Phantom Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.player-card .podcast-text .subtitle p {
+
+    font-size: 24px;
+    color: var(--secondary);
+    font-family: 'Phantom Sans', sans-serif;
+    margin: 0;
+
+}
+

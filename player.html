@@ -11,20 +11,39 @@
     <link rel="stylesheet" href="static/css/player.css">
 </head>
 
-<body>
+<body class="background">
 
-    <div class="card-container">
+    <div class="d-flex flex-column vh-100 align-items-center justify-content-center">
 
-        <div class="podcast">
+        <div class="player-card">
 
-            My favorite Text
+            <div class="player-content">
+                <div class="podcast-icon">
+                    <img src="static/image/ludopatia.jpg" alt="Podcast icon">
+                </div>
+
+                <div class="podcast-text">
+                    <div class="title">
+                        <p>Test title</p>
+                    </div>
+
+                    <div class="subtitle">
+                        <p>Test description</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="play mt-auto">
+                <img src="static/image/play.png" alt="Play button">
+            </div>
 
 
         </div>
 
-
-
     </div>
+
+    <script src="static/js/data.js"></script>
+    <script src="static/js/player.js"></script>
 
 </body>
 
